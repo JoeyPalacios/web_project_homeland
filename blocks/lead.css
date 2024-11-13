@@ -15,7 +15,7 @@
 .lead__title {
   font-family: "Inter", sans-serif;
   font-size: 96px;
-  font-weight: 900px;
+  font-weight: 900;
   color: #ffffff;
   margin: 0;
   width: 100%;
@@ -31,14 +31,14 @@
   max-width: 720px;
   width: 100%;
   text-align: center;
-  margin: 32, 280, 64;
+  margin: 32px 280px 64px;
 }
 
 .lead__image {
   max-width: 984px;
   width: 100%;
   height: auto;
-  margin: 0, auto;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1020px) {
