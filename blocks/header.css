@@ -1,15 +1,18 @@
 .header {
-  text-align: center;
-  padding: 20px 0;
+  margin: auto;
+  justify-content: center;
+  max-width: 1280px;
 }
 
 .header__logo {
-  display: block;
+  display: flex;
   justify-content: center;
-  flex-direction: column;
-  margin: auto;
   width: 100%;
   padding-top: 34px;
+}
+
+.header__logo-img {
+  max-width: 255px;
 }
 
 @media screen and (max-width: 560px) {
